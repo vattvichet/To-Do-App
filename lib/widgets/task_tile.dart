@@ -14,7 +14,7 @@ class _TaskTileState extends State<TaskTile> {
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(
-        "note1",
+        "Task 1",
         style: TextStyle(
             decoration: isChecked ? TextDecoration.lineThrough : null),
       ),
