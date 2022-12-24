@@ -19,16 +19,25 @@ class TaskTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      title: Text(
-        name,
-        style: TextStyle(
-            decoration: isChecked ? TextDecoration.lineThrough : null),
-      ),
-      trailing: Checkbox(
-        activeColor: Colors.lightBlueAccent,
-        value: isChecked,
-        onChanged: checkBoxState,
+    return Padding(
+      padding: const EdgeInsets.all(8),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: const Color.fromARGB(150, 190, 75, 15),
+        ),
+        child: ListTile(
+          title: Text(
+            name,
+            style: TextStyle(
+                decoration: isChecked ? TextDecoration.lineThrough : null),
+          ),
+          trailing: Checkbox(
+            activeColor: Colors.lightBlueAccent,
+            value: isChecked,
+            onChanged: checkBoxState,
+          ),
+        ),
       ),
     );
   }
