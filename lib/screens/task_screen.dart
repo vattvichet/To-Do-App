@@ -31,14 +31,14 @@ class TaskScreen extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                Text(
-                  "Do It",
-                  style: TextStyle(
-                    fontSize: 50,
-                    fontWeight: FontWeight.w700,
-                    color: Colors.white,
-                  ),
-                ),
+                // Text(
+                //   "Do It",
+                //   style: TextStyle(
+                //     fontSize: 50,
+                //     fontWeight: FontWeight.w700,
+                //     color: Colors.white,
+                //   ),
+                // ),
                 Text(
                   "12 Tasks",
                   style: TextStyle(
