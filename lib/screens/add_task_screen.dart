@@ -23,7 +23,7 @@ class AddTaskScreen extends StatelessWidget {
         child: Column(
           children: [
             const Divider(
-              thickness: 5,
+              thickness: 4,
               height: 25,
               color: Colors.grey,
               indent: 100,
